@@ -1,0 +1,15 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int numbers[] = {95,112,117,116,99,104,97,114};
+  for (int i = 0; i < 8; i++)
+      putchar(numbers[i]);
+	return (0);
+}
